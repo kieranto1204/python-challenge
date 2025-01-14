@@ -101,7 +101,7 @@ with open(file_to_output, "w") as txt_file:
 
     # Generate and print the winning candidate summary
 
-    summary = ("Winner: " + winner_name + "\n" + "-------------------------")
+    summary = ("-------------------------" + "\n" + "Winner: " + winner_name + "\n" + "-------------------------")
 
     print(summary)
 
